@@ -30,7 +30,7 @@ body {
 	background: #000;
 }
 
-/*
+
 
 #hero {
 	height: 20vh;
@@ -43,11 +43,11 @@ body {
 	margin-right: auto;
 }
 
-*/
+
 .prev,
 .next {
 	position: fixed;
-	margin-top: 38vh;
+	margin-top: 30vh;
 	margin-left: 5vh;
 	margin-right: 5vh;
 	background: rgba(0, 0, 0, 0.28);
@@ -151,7 +151,7 @@ div.show img {
 	/* custom cursor to signal close on click */
 }
 
-#gallery:not(.show):hover img {
+div:not(.show):hover img {
 	cursor: pointer;
 	transform: scale(1.3);
 }
